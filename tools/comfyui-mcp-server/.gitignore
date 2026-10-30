@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.claude/
+.pytest_cache/
+
+# Local design notes - may reference private project paths
+COMFYUI_MCP_SPEC.md
+COMFYUI_UPLOAD_SPEC.md

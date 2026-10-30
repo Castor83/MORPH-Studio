@@ -1,0 +1,17 @@
+onnxruntime-gpu==1.30.0
+onnx==1.22.0
+albumentations==2.0.8
+albucore==0.0.24
+segment-anything==1.0
+ultralytics==8.4.175
+ml_dtypes==0.6.0
+nvidia-ml-py==13.615.71
+opencv-python-headless==5.0.0.93
+polars==2.0.0
+polars-runtime-32==2.0.0
+protobuf==7.36.2
+simsimd==6.5.16
+stringzilla==5.2.0
+ultralytics-platform==0.1.83
+ultralytics-thop==2.2.2
+flatbuffers==25.12.19

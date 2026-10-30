@@ -1,0 +1,47 @@
+[
+  {
+    "revision": "462165984030d82259a11f4367a4eed129e94a7b",
+    "sha256": "31e35c80fc4829d14f90153f4c74cd59c90b779f6afe05a74cd6120b893f7e5b",
+    "destination": "E:\\MORPH-Studio\\ComfyUI_windows_portable\\ComfyUI\\models\\checkpoints\\sd_xl_base_1.0.safetensors",
+    "path": "sd_xl_base_1.0.safetensors",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/462165984030d82259a11f4367a4eed129e94a7b/sd_xl_base_1.0.safetensors",
+    "repo": "stabilityai/stable-diffusion-xl-base-1.0",
+    "bytes": 6938078334
+  },
+  {
+    "revision": "aa3dd3c4bf31e466dd343107b2af67c472b948bc",
+    "sha256": "630ba795ec64283b4230ea23cf79406c2c68b7c578229ed139f30043eadb30a2",
+    "destination": "E:\\MORPH-Studio\\ComfyUI_windows_portable\\ComfyUI\\models\\diffusion_models\\flux1-dev-kontext_fp8_scaled.safetensors",
+    "path": "split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors",
+    "url": "https://huggingface.co/Comfy-Org/flux1-kontext-dev_ComfyUI/resolve/aa3dd3c4bf31e466dd343107b2af67c472b948bc/split_files/diffusion_models/flux1-dev-kontext_fp8_scaled.safetensors",
+    "repo": "Comfy-Org/flux1-kontext-dev_ComfyUI",
+    "bytes": 11904640136
+  },
+  {
+    "revision": "6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5",
+    "sha256": "660c6f5b1abae9dc498ac2d21e1347d2abdb0cf6c0c0c8576cd796491d9a6cdd",
+    "destination": "E:\\MORPH-Studio\\ComfyUI_windows_portable\\ComfyUI\\models\\text_encoders\\clip_l.safetensors",
+    "path": "clip_l.safetensors",
+    "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5/clip_l.safetensors",
+    "repo": "comfyanonymous/flux_text_encoders",
+    "bytes": 246144152
+  },
+  {
+    "revision": "6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5",
+    "sha256": "a498f0485dc9536735258018417c3fd7758dc3bccc0a645feaa472b34955557a",
+    "destination": "E:\\MORPH-Studio\\ComfyUI_windows_portable\\ComfyUI\\models\\text_encoders\\t5xxl_fp8_e4m3fn_scaled.safetensors",
+    "path": "t5xxl_fp8_e4m3fn_scaled.safetensors",
+    "url": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/6af2a98e3f615bdfa612fbd85da93d1ed5f69ef5/t5xxl_fp8_e4m3fn_scaled.safetensors",
+    "repo": "comfyanonymous/flux_text_encoders",
+    "bytes": 5157348688
+  },
+  {
+    "revision": "5b072540ef86570fecb8249c505f23d5bdeb88cd",
+    "sha256": "afc8e28272cd15db3919bacdb6918ce9c1ed22e96cb12c4d5ed0fba823529e38",
+    "destination": "E:\\MORPH-Studio\\ComfyUI_windows_portable\\ComfyUI\\models\\vae\\ae.safetensors",
+    "path": "split_files/vae/ae.safetensors",
+    "url": "https://huggingface.co/Comfy-Org/Lumina_Image_2.0_Repackaged/resolve/5b072540ef86570fecb8249c505f23d5bdeb88cd/split_files/vae/ae.safetensors",
+    "repo": "Comfy-Org/Lumina_Image_2.0_Repackaged",
+    "bytes": 335304388
+  }
+]

@@ -1,0 +1,1780 @@
+{
+  "date": "2026-10-30",
+  "source_commit": "dc1e7a6f5a95a51d406cb99b45e59a554b2a1b02",
+  "source_is_working_tree": true,
+  "source_may_include_uncommitted_changes": true,
+  "files": [
+    {
+      "path": "finish-phase1.py",
+      "sha256": "1ec8ab33fc992f881f3f428ff243a0c1928746f1a5183919540a4e30fd8e90dd",
+      "source_sha256": "1ec8ab33fc992f881f3f428ff243a0c1928746f1a5183919540a4e30fd8e90dd",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "gpu-test.py",
+      "sha256": "915a8ff78444971833971f31acd286ef0f5c5f3036a9c28e5a6f6f06adb2175f",
+      "source_sha256": "915a8ff78444971833971f31acd286ef0f5c5f3036a9c28e5a6f6f06adb2175f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "image-test.py",
+      "sha256": "d28fafc794f21bd377412bf1d75aecf07986f286fefe4b7e70f8c0a136bcc7b4",
+      "source_sha256": "d28fafc794f21bd377412bf1d75aecf07986f286fefe4b7e70f8c0a136bcc7b4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "LMStudio-Wan-Bedienung.md",
+      "sha256": "e82e4c022bbbcc363d6dabfc109fe4e5f4c04e5657a3e041a68c206edbb37105",
+      "source_sha256": "e82e4c022bbbcc363d6dabfc109fe4e5f4c04e5657a3e041a68c206edbb37105",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "MORPH-Fortsetzen-Check.cmd",
+      "sha256": "503f01d4108b3ba28bf8465a8b66151a3a135d2dd4794147477436f291a1abee",
+      "source_sha256": "503f01d4108b3ba28bf8465a8b66151a3a135d2dd4794147477436f291a1abee",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "MORPH-in-LM-Studio-Anleitung.md",
+      "sha256": "399accfc21c6609951b472611fa8ce027815bd1646e0a6942b410744cdae687a",
+      "source_sha256": "399accfc21c6609951b472611fa8ce027815bd1646e0a6942b410744cdae687a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "MORPH-Oberflaeche.cmd",
+      "sha256": "8aecb137b0f2dc591b4f7a449c6dfc989e40072991f64608b61072e394ab9ec8",
+      "source_sha256": "8aecb137b0f2dc591b4f7a449c6dfc989e40072991f64608b61072e394ab9ec8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "MORPH-Start.cmd",
+      "sha256": "855823f2ce2b7044bb645d0aa3dcb89d4a9e8a4a5b7d69305055c3352d7d997c",
+      "source_sha256": "855823f2ce2b7044bb645d0aa3dcb89d4a9e8a4a5b7d69305055c3352d7d997c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "MORPH-Stop.cmd",
+      "sha256": "b8cedcba1731e4cb8d1a214cda3a7ffeba3a0b16e93eb233c927caa8ddc68345",
+      "source_sha256": "b8cedcba1731e4cb8d1a214cda3a7ffeba3a0b16e93eb233c927caa8ddc68345",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "morph_pause.py",
+      "sha256": "3cb5dfea502038682851070ad81b77cde79d27e42c3ac320f7caf351dcadcfd3",
+      "source_sha256": "3cb5dfea502038682851070ad81b77cde79d27e42c3ac320f7caf351dcadcfd3",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "Phase2-Bedienung.md",
+      "sha256": "6537e1398d911ff361b79d4e5196c4f2aafd5e5d772c3dc3e6ccd974f5516d93",
+      "source_sha256": "6537e1398d911ff361b79d4e5196c4f2aafd5e5d772c3dc3e6ccd974f5516d93",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "phase2-report.py",
+      "sha256": "6967ede55750c61c987d2382a64507183d53499cbe9b09ea063e4ab02a0a75d7",
+      "source_sha256": "6967ede55750c61c987d2382a64507183d53499cbe9b09ea063e4ab02a0a75d7",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "phase2-setup.py",
+      "sha256": "81add1b469046fa1fa0133698f25aae5e8e0a24f927b50b3060b090ae2029638",
+      "source_sha256": "81add1b469046fa1fa0133698f25aae5e8e0a24f927b50b3060b090ae2029638",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "phase2-test.py",
+      "sha256": "2e0d8f1410e3200d9f61f8bda6f365a4d1ca4f1f271ec9526702008d29de44d9",
+      "source_sha256": "2e0d8f1410e3200d9f61f8bda6f365a4d1ca4f1f271ec9526702008d29de44d9",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "phase3-run.py",
+      "sha256": "73e8cfda1f11621694be71e058ea3ae7ef10c5bf7eda5292e038e9f5e33fa484",
+      "source_sha256": "73e8cfda1f11621694be71e058ea3ae7ef10c5bf7eda5292e038e9f5e33fa484",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "README.md",
+      "sha256": "10efa5e7ca26a0209da742fef839fd6304ce8d99f0960f7318a4b8e33066cd86",
+      "source_sha256": "8d4ca634a06feda7ba7c6ef268006245841bbe4b55d857a9b49d42fe67e83f78",
+      "sanitized": false,
+      "area": "application",
+      "export_scope_notice_added": true
+    },
+    {
+      "path": "reports/dependency-check.txt",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "source_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/ABSCHLUSSBERICHT.md",
+      "sha256": "1570b7ff35668ad73697f043ac6d78c5fe75c392a529b2ce008930aca4491321",
+      "source_sha256": "1570b7ff35668ad73697f043ac6d78c5fe75c392a529b2ce008930aca4491321",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/Bestand-und-Umsetzung.md",
+      "sha256": "f729d36c3c8f0152ae37767c778684e4b7698ce6a04703e969760c76d9f6d8d2",
+      "source_sha256": "f729d36c3c8f0152ae37767c778684e4b7698ce6a04703e969760c76d9f6d8d2",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/browser_fixture.py",
+      "sha256": "e0e9fda70c377f24ce9b7b477579e5817c22cf28ac111931758fb4aba46e50cb",
+      "source_sha256": "e0e9fda70c377f24ce9b7b477579e5817c22cf28ac111931758fb4aba46e50cb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/Fortsetzung-Phase5-9-Plan.md",
+      "sha256": "6b9171ceffa6aaecbcd74a2887939154fd2af7a5def7db123d4f8186411a795c",
+      "source_sha256": "6b9171ceffa6aaecbcd74a2887939154fd2af7a5def7db123d4f8186411a795c",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/NEGATIVTEXT-KONFLIKTTEST.md",
+      "sha256": "10656783617e63eb1dc612d296b5cfd3a9c5f9d84f38fa4b2847e455a6b43ddb",
+      "source_sha256": "10656783617e63eb1dc612d296b5cfd3a9c5f9d84f38fa4b2847e455a6b43ddb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/NEGATIVTEXT-VERTRAG.md",
+      "sha256": "9e4ef0545df91a0cc1a0f92b77475a6dc22b137fc9005ddb9be6afe2ce408c82",
+      "source_sha256": "9e4ef0545df91a0cc1a0f92b77475a6dc22b137fc9005ddb9be6afe2ce408c82",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/NOTFALL-SPEICHERFREIGABE.md",
+      "sha256": "10971243025de921424cf9de5a109ab1280912c6821118d5cb9c237fcef95b5d",
+      "source_sha256": "10971243025de921424cf9de5a109ab1280912c6821118d5cb9c237fcef95b5d",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase2-start-stop-nachtrag.md",
+      "sha256": "0ffe10df3fb66963e8e7e645426f4b396f36322fd0b3c252f7e45081ddde3018",
+      "source_sha256": "0ffe10df3fb66963e8e7e645426f4b396f36322fd0b3c252f7e45081ddde3018",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase3-ui-bericht.md",
+      "sha256": "0aa2a36118b3a93bba8e95cf5f4fde794b55f6dc666740ff6ace5ab375b26aab",
+      "source_sha256": "0aa2a36118b3a93bba8e95cf5f4fde794b55f6dc666740ff6ace5ab375b26aab",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase4-recovery-abschluss.md",
+      "sha256": "d4225d681471d0791a8d7f2a811f3c6921943f5c2b017837abcd2a2b7f40e809",
+      "source_sha256": "d4225d681471d0791a8d7f2a811f3c6921943f5c2b017837abcd2a2b7f40e809",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase4-ui-bericht.md",
+      "sha256": "1b722fbc850fcc1baa0e8ec6b9b1fded8854d0364da06c9e915c2edd20d11ce1",
+      "source_sha256": "1b722fbc850fcc1baa0e8ec6b9b1fded8854d0364da06c9e915c2edd20d11ce1",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase5-backend.md",
+      "sha256": "350e5c2800a5da9e790d42f8c3003f4a90933c3f6dff3f920afaa07614f5ead4",
+      "source_sha256": "350e5c2800a5da9e790d42f8c3003f4a90933c3f6dff3f920afaa07614f5ead4",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase5-browser.md",
+      "sha256": "ebcae0175006f48a52441ecf1fc29d2aee1efa88a35c82d6f47a76afcc735906",
+      "source_sha256": "ebcae0175006f48a52441ecf1fc29d2aee1efa88a35c82d6f47a76afcc735906",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase5-ui-report.md",
+      "sha256": "b18558f9a7ea047e98a10fd5a985d707e9f45362a7b7814825f0e6d11757af27",
+      "source_sha256": "b18558f9a7ea047e98a10fd5a985d707e9f45362a7b7814825f0e6d11757af27",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase5_browser_fixture.py",
+      "sha256": "e4bcfdfe247960726d90aa4d88d1dce2e60726ead15dfbf292e250d0270fa26d",
+      "source_sha256": "e4bcfdfe247960726d90aa4d88d1dce2e60726ead15dfbf292e250d0270fa26d",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase6-backend.md",
+      "sha256": "a01d96017d218ceff0e17cf59530ce48994f01ad4e7a905374f7068289253759",
+      "source_sha256": "a01d96017d218ceff0e17cf59530ce48994f01ad4e7a905374f7068289253759",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase6-ui-report.md",
+      "sha256": "fedb6efb9ca33bff879e343e2dc0b49045ec1ca2d7792a347ec7e62a90dc6adb",
+      "source_sha256": "fedb6efb9ca33bff879e343e2dc0b49045ec1ca2d7792a347ec7e62a90dc6adb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase6_request_sizes.py",
+      "sha256": "31b9f2ed532ecbc609022c4d39242ee7b4690625b393fd98094d4c9b6fcb133a",
+      "source_sha256": "31b9f2ed532ecbc609022c4d39242ee7b4690625b393fd98094d4c9b6fcb133a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase7-backend.md",
+      "sha256": "d56ba6014bc39a5cfc17b743d9356b02943c78234ffa8de6bc0ad731829ba579",
+      "source_sha256": "d56ba6014bc39a5cfc17b743d9356b02943c78234ffa8de6bc0ad731829ba579",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase7-browser.md",
+      "sha256": "109ba21db902d7482321d8df0a2e0a6ab71f5a3463b582799fbc0c3737c8e5aa",
+      "source_sha256": "109ba21db902d7482321d8df0a2e0a6ab71f5a3463b582799fbc0c3737c8e5aa",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase7-ui-report.md",
+      "sha256": "c19a74fbfb6f17de7b71d321960737b4ea3da875dec58e326023031b3e9d6373",
+      "source_sha256": "c19a74fbfb6f17de7b71d321960737b4ea3da875dec58e326023031b3e9d6373",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase7_browser_fixture.py",
+      "sha256": "83b1fd700197f97605e0e404c014928fd5656af942811f5ae8fc283cd4410c74",
+      "source_sha256": "83b1fd700197f97605e0e404c014928fd5656af942811f5ae8fc283cd4410c74",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase8-backend.md",
+      "sha256": "cc42caa1f4e3423c2999c03695db634736071f63599a25b7ebe529468dd6eff9",
+      "source_sha256": "cc42caa1f4e3423c2999c03695db634736071f63599a25b7ebe529468dd6eff9",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase8-ui-report.md",
+      "sha256": "0a3c9c04f285dd58c71d1fa8772051988b7e3c290a0012cad7261c223252c86c",
+      "source_sha256": "0a3c9c04f285dd58c71d1fa8772051988b7e3c290a0012cad7261c223252c86c",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-cancel-free-live.md",
+      "sha256": "f6178c71f0b7ac88a1fe3be10558424f979ccd3793675bddb3fa6f239a887de6",
+      "source_sha256": "f6178c71f0b7ac88a1fe3be10558424f979ccd3793675bddb3fa6f239a887de6",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/Phase9-Echte-Abnahme-Anweisung.md",
+      "sha256": "83e4c4ff508f822cf84ff197d48f82eb1d7b39519a661b85edafeb3d64cf46d5",
+      "source_sha256": "83e4c4ff508f822cf84ff197d48f82eb1d7b39519a661b85edafeb3d64cf46d5",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-gate-backend-review.md",
+      "sha256": "128dce7915fec7db59f6e23ab70533bb80c730d90111ac3ebb9f8c7a0b97d071",
+      "source_sha256": "128dce7915fec7db59f6e23ab70533bb80c730d90111ac3ebb9f8c7a0b97d071",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-gate-backend.md",
+      "sha256": "b9fa730ca1a64f52d0b78d66531a776328f82e2a62d0be75df620eb541b555c9",
+      "source_sha256": "b9fa730ca1a64f52d0b78d66531a776328f82e2a62d0be75df620eb541b555c9",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-gate-ui-bericht.md",
+      "sha256": "ce029e12025fca1b54b72dff3a2bd7ca6a4f4219fc7b3dec571d90e3bac22da2",
+      "source_sha256": "ce029e12025fca1b54b72dff3a2bd7ca6a4f4219fc7b3dec571d90e3bac22da2",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-gate-ui-review.md",
+      "sha256": "0fe9d28e0f1cf299c4f667351cb3768bab4bb5429a4649987c1b1fcc85d7b6cb",
+      "source_sha256": "0fe9d28e0f1cf299c4f667351cb3768bab4bb5429a4649987c1b1fcc85d7b6cb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-harness-README.md",
+      "sha256": "85401e20afe00f9834f73846d75080f3e74569f03deb876e9807b0e796377f72",
+      "source_sha256": "85401e20afe00f9834f73846d75080f3e74569f03deb876e9807b0e796377f72",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-harness-review.md",
+      "sha256": "69ad9cf2e042625191e574609b681f1f962f6323458fde99b41f37d64ca5c3c8",
+      "source_sha256": "ca8a1f960a4b157783a4b364accbfd69539570bf487f4844e636e8571e7d8a7d",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-krea-live.md",
+      "sha256": "c9145bc48a9c28ef5ae75565d141f495b92a7b8fa47b6f4474d683c63f35d7f7",
+      "source_sha256": "c9145bc48a9c28ef5ae75565d141f495b92a7b8fa47b6f4474d683c63f35d7f7",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-language-live.md",
+      "sha256": "c4c075ccc411acc72c63e736ef2bcce5e918039022d7f04405d128224631d215",
+      "source_sha256": "c4c075ccc411acc72c63e736ef2bcce5e918039022d7f04405d128224631d215",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-progress.md",
+      "sha256": "b8d89eb86fb5b38050a0c12b67f282c42a60a050f5cf4482a50d331e5b8fe438",
+      "source_sha256": "b8d89eb86fb5b38050a0c12b67f282c42a60a050f5cf4482a50d331e5b8fe438",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-reactor-harness-final.md",
+      "sha256": "133580128c84b80c1507add7f994be48448c9b6fa23b28ef096e4f509e362596",
+      "source_sha256": "133580128c84b80c1507add7f994be48448c9b6fa23b28ef096e4f509e362596",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-reactor-inputs.md",
+      "sha256": "c1ff8091f7fb3e10b9b5ff7c7d316dd88055a70043f9627761729029f77d7b12",
+      "source_sha256": "c1ff8091f7fb3e10b9b5ff7c7d316dd88055a70043f9627761729029f77d7b12",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-reactor-live.md",
+      "sha256": "43eab79aa5ad963aeea852297c052b7922837f6214c5f36a59a9c871d78d6fcb",
+      "source_sha256": "43eab79aa5ad963aeea852297c052b7922837f6214c5f36a59a9c871d78d6fcb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-root-abschlusspruefung.md",
+      "sha256": "04f9bdb1fce0263042d259de443e3780a964ce2a7bba8fdeb83f412e7d51a3f3",
+      "source_sha256": "04f9bdb1fce0263042d259de443e3780a964ce2a7bba8fdeb83f412e7d51a3f3",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9-ui-health-fix.md",
+      "sha256": "2654d3bd342ed4bc190b358e84f64668c3d6467c4525eeeaddb5589ed7c2b1e0",
+      "source_sha256": "2654d3bd342ed4bc190b358e84f64668c3d6467c4525eeeaddb5589ed7c2b1e0",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9_preflight_backup.py",
+      "sha256": "eedbc8a5fbc7da9fcb902c7d3bc39d9db3c1717802a003f6c03b9ae2dde48202",
+      "source_sha256": "eedbc8a5fbc7da9fcb902c7d3bc39d9db3c1717802a003f6c03b9ae2dde48202",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9_project_export_check.py",
+      "sha256": "84fdd0201bb2af217218d617b941c491973e3ffc83218ebdcae0b6ef6f156d5c",
+      "source_sha256": "84fdd0201bb2af217218d617b941c491973e3ffc83218ebdcae0b6ef6f156d5c",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9_reactor_acceptance.py",
+      "sha256": "bb346ccbe704ea160a013817cb89f6aeb1117ad0e409562fe2b3ca52f1c8a820",
+      "source_sha256": "bb346ccbe704ea160a013817cb89f6aeb1117ad0e409562fe2b3ca52f1c8a820",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/phase9_real_acceptance.py",
+      "sha256": "95dffa8ae2c50b9d14970afab8d43582114298131512ce263bc4bdffbab38cb2",
+      "source_sha256": "95dffa8ae2c50b9d14970afab8d43582114298131512ce263bc4bdffbab38cb2",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/PROMPT-AUFTRAG-PRIORITAET.md",
+      "sha256": "67b4b70989de28593224d464ddef085b6be097eb64d801ee08d118cf6a0d731f",
+      "source_sha256": "67b4b70989de28593224d464ddef085b6be097eb64d801ee08d118cf6a0d731f",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/PROMPT-GENERIERUNG.md",
+      "sha256": "1cfbd5c7a9c9e08084256fe3f6b3f2286582d36adff4b8f8e19045918232920d",
+      "source_sha256": "1cfbd5c7a9c9e08084256fe3f6b3f2286582d36adff4b8f8e19045918232920d",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/test_phase9_reactor_acceptance.py",
+      "sha256": "bdaf2e27d1b790db915026032525b58a3aeab4400e395151115e18f4fd1940d5",
+      "source_sha256": "bdaf2e27d1b790db915026032525b58a3aeab4400e395151115e18f4fd1940d5",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/entwicklung-20261020/test_phase9_real_acceptance.py",
+      "sha256": "d6d09786f6d0485271d50f9544a902deef09da7bf6b9671498d1b9a2eb1c62a6",
+      "source_sha256": "d6d09786f6d0485271d50f9544a902deef09da7bf6b9671498d1b9a2eb1c62a6",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/installed-packages.txt",
+      "sha256": "4e40577e65d5ba1a29ccab29c35579f46d8e7b8b0555cb8ad7c766036257548a",
+      "source_sha256": "4e40577e65d5ba1a29ccab29c35579f46d8e7b8b0555cb8ad7c766036257548a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/krea-ui-20261015/Desktop-Bestand.md",
+      "sha256": "96210c153a16e0b36ef121d485ed31b6e7b530964e1d0d30c0324e67b8c6b53c",
+      "source_sha256": "1b18247cdca6f45a14f8db19f5526def3c2eb4d0e940793f2fea272a256dff5f",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/krea-ui-20261015/Ergebnis.md",
+      "sha256": "8916bf3ea134429c3caa97446b25377a8ad27c2e4acb64c66bf0c4f87f31aa44",
+      "source_sha256": "8916bf3ea134429c3caa97446b25377a8ad27c2e4acb64c66bf0c4f87f31aa44",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/KREA2-Edit-20261015/Ergebnis.md",
+      "sha256": "21551129bd2644ef43c5de6f73a61bb282fd47737c1647e33870c68c18b647b8",
+      "source_sha256": "21551129bd2644ef43c5de6f73a61bb282fd47737c1647e33870c68c18b647b8",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/KREA2-Edit-20261015/official-node-README.md",
+      "sha256": "ee12b615b305f608115c7466146e26ad4d19915f3f9654047ba3007ad8289834",
+      "source_sha256": "ee12b615b305f608115c7466146e26ad4d19915f3f9654047ba3007ad8289834",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/KREA2-Edit-20261015/Quellen-und-Grenzen.md",
+      "sha256": "5051f7caaebe15958d57a26ede1c633b561a38fa72b953049b151f4b224f6a05",
+      "source_sha256": "5051f7caaebe15958d57a26ede1c633b561a38fa72b953049b151f4b224f6a05",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/KREA2-Edit-Ref4-20261015/Vergleich.md",
+      "sha256": "d90a6c02b830955b08194b542d7e122dc379f471b82ab9827765c087abf44562",
+      "source_sha256": "d90a6c02b830955b08194b542d7e122dc379f471b82ab9827765c087abf44562",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Migration-D-20261008.md",
+      "sha256": "4ea87e9ee456aa618f696d090ca37acf179b926c4fe95f5dbed1bf0259318421",
+      "source_sha256": "4ea87e9ee456aa618f696d090ca37acf179b926c4fe95f5dbed1bf0259318421",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Modellrecherche-Fotoedit-I2V-20261015.md",
+      "sha256": "deb01ba5cf7e1ccad03a4c16185d6da8054d4c08ce8dd3eb56508430ad610ed6",
+      "source_sha256": "deb01ba5cf7e1ccad03a4c16185d6da8054d4c08ce8dd3eb56508430ad610ed6",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/ollama-migration-20261015/Abschlussbericht.md",
+      "sha256": "b2718e0e6c36cabb677b3d10c8ec01cd6d277e554283b3fa3ee7650bdc7e6f59",
+      "source_sha256": "b2718e0e6c36cabb677b3d10c8ec01cd6d277e554283b3fa3ee7650bdc7e6f59",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/ollama-migration-20261015/Arbeitsstand.md",
+      "sha256": "d6b32f1f2d3108a7868b7cbbcf3501a78359d43b0be78acbb945340d75780475",
+      "source_sha256": "d6b32f1f2d3108a7868b7cbbcf3501a78359d43b0be78acbb945340d75780475",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/ollama-migration-20261015/Codepruefung.md",
+      "sha256": "c80e59d540bba0807e81a1441e508c06718eb5639dedabd3e8aa6899f763c6b2",
+      "source_sha256": "c80e59d540bba0807e81a1441e508c06718eb5639dedabd3e8aa6899f763c6b2",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Phase1-Bericht.md",
+      "sha256": "e6e89b9c10397a73232fdbc724f120a4d3c2a26cd4b8b8d9fbec13d1d05894bc",
+      "source_sha256": "e6e89b9c10397a73232fdbc724f120a4d3c2a26cd4b8b8d9fbec13d1d05894bc",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Phase2-Bericht.md",
+      "sha256": "31a60d6cc78a164c35db1774bf6122565334096986d72a84c7ff2d1e62ab880f",
+      "source_sha256": "31a60d6cc78a164c35db1774bf6122565334096986d72a84c7ff2d1e62ab880f",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/phase2-dependency-check.txt",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "source_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/phase2-model-manifest.json",
+      "sha256": "9240ea334c1563ade720e8f6176dfcc243ea6c7296baa34ca4a6843c6cd9ae28",
+      "source_sha256": "9240ea334c1563ade720e8f6176dfcc243ea6c7296baa34ca4a6843c6cd9ae28",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/phase2-sources/SDXL-LICENSE.md",
+      "sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0",
+      "source_sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Phase3-1-Bericht.md",
+      "sha256": "6bf7e03dce1ca6aa0beb1deea5a78c3fee7f79d90fb29087329843fe7725aadb",
+      "source_sha256": "6bf7e03dce1ca6aa0beb1deea5a78c3fee7f79d90fb29087329843fe7725aadb",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/Phase3-1-Vorbereitung.md",
+      "sha256": "5c29bc40c5fb65dbddb9d12b6f73dfd6ed39deea1ea4583600ba5c31864d9d55",
+      "source_sha256": "5c29bc40c5fb65dbddb9d12b6f73dfd6ed39deea1ea4583600ba5c31864d9d55",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/activate-reactor.py",
+      "sha256": "ad355b7861039b95ffbae70a3ac8b676349f58f7dd2df1bcff207c790d9aaa9b",
+      "source_sha256": "ad355b7861039b95ffbae70a3ac8b676349f58f7dd2df1bcff207c790d9aaa9b",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/check-workflow-static.py",
+      "sha256": "3bb1a0dfad60aa70decfddf0d4f4b0aacae5a00c42008b8ff56e3a8ebbd843f2",
+      "source_sha256": "3bb1a0dfad60aa70decfddf0d4f4b0aacae5a00c42008b8ff56e3a8ebbd843f2",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/download-models.py",
+      "sha256": "78a692f32a10349bca783cc7a40943fa33a273363fd123ce8c4298135abbb02a",
+      "source_sha256": "78a692f32a10349bca783cc7a40943fa33a273363fd123ce8c4298135abbb02a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/guide-before-face-route.md",
+      "sha256": "f4ad0a69940a87c807b59651a99b545c220413fb968572754b1b07bb5d35e126",
+      "source_sha256": "f4ad0a69940a87c807b59651a99b545c220413fb968572754b1b07bb5d35e126",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/probe-runtime.py",
+      "sha256": "32bac0158b562b8d3324809253ca7c1c917f693aeb11871c9043fbcebd0f0298",
+      "source_sha256": "32bac0158b562b8d3324809253ca7c1c917f693aeb11871c9043fbcebd0f0298",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/requirements-installed.txt",
+      "sha256": "beae7d2dde85d6bdfb4bd3c2c96084f46726e242096a603e196c97ce4f2f6a76",
+      "source_sha256": "beae7d2dde85d6bdfb4bd3c2c96084f46726e242096a603e196c97ce4f2f6a76",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reactor-lmstudio/run-first-face-swap.cjs",
+      "sha256": "a33fa376386bb7a0220d29d023fc25adb4ddcb1e321304d2cd0bbee0a992536e",
+      "source_sha256": "a33fa376386bb7a0220d29d023fc25adb4ddcb1e321304d2cd0bbee0a992536e",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reparatur-modellzuordnung-20261018/Ergebnisbericht.md",
+      "sha256": "a1b4a1e4cae43a8fccb6de66d8ee48df6b920f1d99e65c2e2c7f84690a78d968",
+      "source_sha256": "a1b4a1e4cae43a8fccb6de66d8ee48df6b920f1d99e65c2e2c7f84690a78d968",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reparatur-modellzuordnung-20261018/model-library-changes.md",
+      "sha256": "6d10761021d909adced219bb50db6410e94193511e12c6ce13a1e7320fb8984e",
+      "source_sha256": "6d10761021d909adced219bb50db6410e94193511e12c6ce13a1e7320fb8984e",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/reparatur-modellzuordnung-20261018/proposal-repair-notes.md",
+      "sha256": "a9510e42278d8af1b440c7542fc919d32664cdf7e39c1497ffaaa73710c3a37f",
+      "source_sha256": "a9510e42278d8af1b440c7542fc919d32664cdf7e39c1497ffaaa73710c3a37f",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/bridge-research.md",
+      "sha256": "d2acba3acd52a69f92cda3af2afba47399c232f6637e2495574d54cdd389ff47",
+      "source_sha256": "c0b13434cacf6d2b092c6f0fd25ec6e392aedcdf525e55b10e58b7aa2167a293",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/check-cat-dance.cjs",
+      "sha256": "44e455c43ac46cb2f39fdc4b2b4207f6209bdc67f7c6594e4f27fcafd7767f40",
+      "source_sha256": "8bf1990ec55a5fa913a22ab89838e039a34df40d2a6f42593e8af332c938dce6",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/check-flower-hip-dance.cjs",
+      "sha256": "3dbcdb6ed94224aacbbbab34f8d4c5131dbea20d1447456050f6914fc5bc370f",
+      "source_sha256": "8b4eb5c00ea63cf7bf30599088afe792269e69741399b3f4348bd50dba7af15b",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/download-models.ps1",
+      "sha256": "2c000a217af7455952cebb21568ccb49beaaba75221b92026409bf61fe56aa44",
+      "source_sha256": "2c000a217af7455952cebb21568ccb49beaaba75221b92026409bf61fe56aa44",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/download_models_ranges.py",
+      "sha256": "c52df442bc27065e55ed25069b064fc3c3e8b9aacf8cd166be9c9e481dae2df0",
+      "source_sha256": "c52df442bc27065e55ed25069b064fc3c3e8b9aacf8cd166be9c9e481dae2df0",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/inspect-first-video.py",
+      "sha256": "b6fd2f3538ec04a952056db45150a5aae8e58db7af41a1f7ce7284fd9fbb8c2f",
+      "source_sha256": "b6fd2f3538ec04a952056db45150a5aae8e58db7af41a1f7ce7284fd9fbb8c2f",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/native-installed-plugin-probe.cjs",
+      "sha256": "d5ef1174153fe46d25cee2fdd56f5452b79b9c5cda1f710c48e7c1c182b206e2",
+      "source_sha256": "f502a4289b69701b5e02365dca134a03accb4a405b48491c35f6ea482b6851bc",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/native-sdk-no-render-probe.cjs",
+      "sha256": "146b56e7b87c2b1e7205d733fb960d194448da3b683ef5bbed2afa00ecdbf191",
+      "source_sha256": "9b52c7c1b6a9194fabc63168b693e3b0f8159538958215cf7c1613163d2c43e4",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/packages-before.txt",
+      "sha256": "4e40577e65d5ba1a29ccab29c35579f46d8e7b8b0555cb8ad7c766036257548a",
+      "source_sha256": "4e40577e65d5ba1a29ccab29c35579f46d8e7b8b0555cb8ad7c766036257548a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/pip-check-after.txt",
+      "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "source_sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/prepare-flower-hip-dance.cjs",
+      "sha256": "7541d6a923e3f9681e323e9821c12a27522ef18d4bc8261b27eb60093da75c13",
+      "source_sha256": "552a6996d4d5764bb33dce44ccfa8d7bb114f567296cf753593e383c85ebbfc4",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/prepare-flower-media-check.cjs",
+      "sha256": "82adbf73586a3aa8c50c0fab0c5043d935cf9a265ff1769d138d6457883961f8",
+      "source_sha256": "82adbf73586a3aa8c50c0fab0c5043d935cf9a265ff1769d138d6457883961f8",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/probe-mcp.py",
+      "sha256": "52836cf3217e0bc9738febc62c2f0266298310c82c8f9e15bbe93f039b0440a9",
+      "source_sha256": "52836cf3217e0bc9738febc62c2f0266298310c82c8f9e15bbe93f039b0440a9",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/repair-20261010-start/probe-installed-provider.mjs",
+      "sha256": "e979d061792dcc0f61c4025c0dfc94cd733293016fb3becb055b102d92272063",
+      "source_sha256": "0205b401813e853a6c439aa0fa6daca692f5232d6cd701d8fb5d203f1930f643",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/repair-20261010-start/recheck-2/probe-installed-provider.mjs",
+      "sha256": "e979d061792dcc0f61c4025c0dfc94cd733293016fb3becb055b102d92272063",
+      "source_sha256": "0205b401813e853a6c439aa0fa6daca692f5232d6cd701d8fb5d203f1930f643",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/repair-20261010-start/Reparaturbericht.md",
+      "sha256": "6268f6f27a45d2f4adb27355b36e333a8230e6eb91d96674fc480c714026f01a",
+      "source_sha256": "6268f6f27a45d2f4adb27355b36e333a8230e6eb91d96674fc480c714026f01a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/repair-install.cjs",
+      "sha256": "7140a5dbe04f64756c37668ee1bfe7e2bade7267d75636a0f3903c533cf5a3e1",
+      "source_sha256": "7140a5dbe04f64756c37668ee1bfe7e2bade7267d75636a0f3903c533cf5a3e1",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/repair-no-render-probe.cjs",
+      "sha256": "dea0549b576366b7ccae32ab83c10c6185b65e762ee7aa6ddb117b87e51f518a",
+      "source_sha256": "dea0549b576366b7ccae32ab83c10c6185b65e762ee7aa6ddb117b87e51f518a",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/run-cat-dance.cjs",
+      "sha256": "5b849655d39e6b7abf88ce6c62369b5bc7240f1df28d6745c8b40957caf94bec",
+      "source_sha256": "ca45fd02598b650724fed080f3173bddec31a7f275405e6c75a8bfd12d18866b",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/run-flower-hip-dance.cjs",
+      "sha256": "478b6e29d872cb0ff8253ddd7ad09a54a1bc44d148e52e2fa9825a7d5fde8f33",
+      "source_sha256": "9cb758d6dc72b094e21183d3a8dd386eb973cfe25d8d8fc39d1570464b944aec",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/runtime-constraints.txt",
+      "sha256": "f46e3dfc05f084982513cde49b54b71c6f9d1a8fa78fc25356f95664e36ba7a0",
+      "source_sha256": "f46e3dfc05f084982513cde49b54b71c6f9d1a8fa78fc25356f95664e36ba7a0",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/submit-first-video.py",
+      "sha256": "9696d40dcdaeb98fab420fb27148e6ff2f6ed4a801ab94b0f24fb1a563222f7c",
+      "source_sha256": "9696d40dcdaeb98fab420fb27148e6ff2f6ed4a801ab94b0f24fb1a563222f7c",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/upload-selected-image.py",
+      "sha256": "4f3cd8c965e7b1fa727ff9758d2ff93e8eec2a0debab0e76f28d18856c33029b",
+      "source_sha256": "9e2f684614d5dce77491b50efee1f80b32806d2e4321ade570b52ac6f2bd3fc3",
+      "sanitized": true,
+      "area": "technical-history"
+    },
+    {
+      "path": "reports/wan-lmstudio/validate-first-video.py",
+      "sha256": "cbdc7a3db7c4faadb3f2324ec96b1895a9dd95ed62b4e22c0374c71e1938aec5",
+      "source_sha256": "cbdc7a3db7c4faadb3f2324ec96b1895a9dd95ed62b4e22c0374c71e1938aec5",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "start-morph-ui.ps1",
+      "sha256": "4a986eb49c0c68a7001fa3654143f563df0d04016597817c907780752525955b",
+      "source_sha256": "4a986eb49c0c68a7001fa3654143f563df0d04016597817c907780752525955b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "start-morph.ps1",
+      "sha256": "7bbcad4abe394a753914988852fc02edf0485b87f62ff231e3c55c47670be9eb",
+      "source_sha256": "7bbcad4abe394a753914988852fc02edf0485b87f62ff231e3c55c47670be9eb",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "stop-morph.ps1",
+      "sha256": "a773d2be0b360e5fd3794f47f58b418f5a037264c7032ba419432e3681d0057b",
+      "source_sha256": "a773d2be0b360e5fd3794f47f58b418f5a037264c7032ba419432e3681d0057b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/.gitignore",
+      "sha256": "2a4ef376dc7620f253f2519e4b020496839a79e474cf895b1f353f897f45b062",
+      "source_sha256": "2a4ef376dc7620f253f2519e4b020496839a79e474cf895b1f353f897f45b062",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/comfy_core.py",
+      "sha256": "43fb0d8f5fe0dea3036f6c17d24e497f357094a4cc45a1e36e7d3f3e1ea0d8f5",
+      "source_sha256": "43fb0d8f5fe0dea3036f6c17d24e497f357094a4cc45a1e36e7d3f3e1ea0d8f5",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/example-mcp-config.json",
+      "sha256": "f16cfdcd70ea109cb30c12b54d24fcba3cd50182242652d025bba208b652276f",
+      "source_sha256": "f16cfdcd70ea109cb30c12b54d24fcba3cd50182242652d025bba208b652276f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/LICENSE",
+      "sha256": "afe0f1321611ce93569f055aeda524ea6ad3886dff8e4663b933fa3134de6d89",
+      "source_sha256": "afe0f1321611ce93569f055aeda524ea6ad3886dff8e4663b933fa3134de6d89",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/README.md",
+      "sha256": "b6ace3713ab49d2acca2c5103740293ac8204bed7bdc3d1f677a6c9ca54eb9bd",
+      "source_sha256": "b6ace3713ab49d2acca2c5103740293ac8204bed7bdc3d1f677a6c9ca54eb9bd",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/requirements.txt",
+      "sha256": "ba00881c016dbcd05157ea2152f5c7aba32d3a45be9fa0b4b7a0c8f6cbf74c16",
+      "source_sha256": "ba00881c016dbcd05157ea2152f5c7aba32d3a45be9fa0b4b7a0c8f6cbf74c16",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/server.py",
+      "sha256": "32393d6208667708c22345266363c03de31b11f08d116062d4002f7254538fdb",
+      "source_sha256": "32393d6208667708c22345266363c03de31b11f08d116062d4002f7254538fdb",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/conftest.py",
+      "sha256": "7f7497b57b45cb06bc936a8310af5ae3358117b03f432b850e7de89fdcdca305",
+      "source_sha256": "7f7497b57b45cb06bc936a8310af5ae3358117b03f432b850e7de89fdcdca305",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_input_listing.py",
+      "sha256": "1e682aa5fdfe2c15744ba34d0b5592ded161c6d963c37e2ea0323c6019edb3e2",
+      "source_sha256": "1e682aa5fdfe2c15744ba34d0b5592ded161c6d963c37e2ea0323c6019edb3e2",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_multipart.py",
+      "sha256": "9adbef8ab81610759ae1299e7b102719551ae03dd657ce9766ec0b56ffc80342",
+      "source_sha256": "9adbef8ab81610759ae1299e7b102719551ae03dd657ce9766ec0b56ffc80342",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_server_registration.py",
+      "sha256": "fb6335db51e8aa6fab83e992c287db20b593ee6ce8bc3d5dbcb2f9a3d0498a11",
+      "source_sha256": "fb6335db51e8aa6fab83e992c287db20b593ee6ce8bc3d5dbcb2f9a3d0498a11",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_upload_tools.py",
+      "sha256": "1e73014dbb9f5276293d313c9a614d0264e85d0aa86008b421eaa0d2064d4978",
+      "source_sha256": "1e73014dbb9f5276293d313c9a614d0264e85d0aa86008b421eaa0d2064d4978",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_workflow_graph.py",
+      "sha256": "f614f26b04d474182d112a43650162f4d53e9b4548445273d58955493621c65c",
+      "source_sha256": "f614f26b04d474182d112a43650162f4d53e9b4548445273d58955493621c65c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_workflow_outputs.py",
+      "sha256": "2f5f4df6b319fff13a0bfb873327e6618170c4d6dae9b8415dd7f930162ac1c7",
+      "source_sha256": "2f5f4df6b319fff13a0bfb873327e6618170c4d6dae9b8415dd7f930162ac1c7",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/tests/test_workflow_tools.py",
+      "sha256": "cce5f2b933a62c34b50c3cd9b06392d3b8c6657b002c35ded76ee8b1469947ad",
+      "source_sha256": "cce5f2b933a62c34b50c3cd9b06392d3b8c6657b002c35ded76ee8b1469947ad",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/upload_tools.py",
+      "sha256": "a14a342aa14d3286e8e0c45d540e65d6cb7ee3feced7361b1852135eedfee562",
+      "source_sha256": "a14a342aa14d3286e8e0c45d540e65d6cb7ee3feced7361b1852135eedfee562",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/workflow.json",
+      "sha256": "c59d3c5494345ac5cf911f4c3dcb178184f521a0bd609c7e4cf4dfafc795d4c2",
+      "source_sha256": "c59d3c5494345ac5cf911f4c3dcb178184f521a0bd609c7e4cf4dfafc795d4c2",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/workflow_tools.py",
+      "sha256": "931b5c4a9f5d0c7554021614c6b8ac9c0e61dda6ed17a6ef3d7633857010bb33",
+      "source_sha256": "931b5c4a9f5d0c7554021614c6b8ac9c0e61dda6ed17a6ef3d7633857010bb33",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/comfyui-mcp-server/z-image-api.json",
+      "sha256": "5133788fa0340bab299aa5a183e507598fb151a449248880b945023df423025b",
+      "source_sha256": "5133788fa0340bab299aa5a183e507598fb151a449248880b945023df423025b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/.lmsignore",
+      "sha256": "6ad26642e0aa045a927e12d53f80501a517c2d391bc2211a0fcb92fafe1c37c1",
+      "source_sha256": "6ad26642e0aa045a927e12d53f80501a517c2d391bc2211a0fcb92fafe1c37c1",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/configure-chat.cjs",
+      "sha256": "d17131876a35c294652b8fbe7dfe6ecf6df003990525cfb5c2c4cfe6a044f666",
+      "source_sha256": "d17131876a35c294652b8fbe7dfe6ecf6df003990525cfb5c2c4cfe6a044f666",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/install-offline.cjs",
+      "sha256": "5ca3c8f0626e8022820f2a741c0a1333a3d698b4c23159b827ded795ae961dc3",
+      "source_sha256": "5ca3c8f0626e8022820f2a741c0a1333a3d698b4c23159b827ded795ae961dc3",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/manifest.json",
+      "sha256": "7b7c2260fe555df5934eec9fd4a33d152c03c6a8be56a085c920884ffd650e00",
+      "source_sha256": "7b7c2260fe555df5934eec9fd4a33d152c03c6a8be56a085c920884ffd650e00",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/package.json",
+      "sha256": "82ba16132be28f5a37806a5db2942e27a8caec5490920a3c21cc3546f13c22cd",
+      "source_sha256": "82ba16132be28f5a37806a5db2942e27a8caec5490920a3c21cc3546f13c22cd",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/src/index.ts",
+      "sha256": "c1f4d4fc88dbdc5fcca0ea5320cc53cfc8808509ab68f2fa234478374e4b160a",
+      "source_sha256": "c1f4d4fc88dbdc5fcca0ea5320cc53cfc8808509ab68f2fa234478374e4b160a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/src/mcpTransport.mjs",
+      "sha256": "7e7d69757f7d23f597c0a7821de130bf14f875868983ca919a285940c3e7d7de",
+      "source_sha256": "7e7d69757f7d23f597c0a7821de130bf14f875868983ca919a285940c3e7d7de",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/src/promptPreprocessor.mjs",
+      "sha256": "eaf76e94c76e1cd1ac6b3761747bb8ff7d6dbf9bd0d6f1e93eccd24de4046b6c",
+      "source_sha256": "eaf76e94c76e1cd1ac6b3761747bb8ff7d6dbf9bd0d6f1e93eccd24de4046b6c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/src/toolsProxy.mjs",
+      "sha256": "0c80b9fd878819899d5b016cd992fc3640c17870446fdf6a8188982f591c9152",
+      "source_sha256": "0c80b9fd878819899d5b016cd992fc3640c17870446fdf6a8188982f591c9152",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/start_mcp.py",
+      "sha256": "593c2db06211c70dfbc7cdc8914b7b5d88677540f4aa966160228fd76f46d142",
+      "source_sha256": "593c2db06211c70dfbc7cdc8914b7b5d88677540f4aa966160228fd76f46d142",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/tests/attachments.test.mjs",
+      "sha256": "0da2a4cf3d05e35b3ad7f3e590914b289e0f8c208c5c5ca29bab14ff992ab1a5",
+      "source_sha256": "0da2a4cf3d05e35b3ad7f3e590914b289e0f8c208c5c5ca29bab14ff992ab1a5",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/tests/proxy.test.mjs",
+      "sha256": "1af0fd9ff3fb6533fa6e961faf5e52dff8652da23169d38489437d3b75fadeb8",
+      "source_sha256": "1af0fd9ff3fb6533fa6e961faf5e52dff8652da23169d38489437d3b75fadeb8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/tests/test_resource_guard.py",
+      "sha256": "df2cc758e8a184044fd2b3ce5bf6ef69e89ce11b33b5c5a35fdaaf9b7b1d5038",
+      "source_sha256": "df2cc758e8a184044fd2b3ce5bf6ef69e89ce11b33b5c5a35fdaaf9b7b1d5038",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/tests/test_start_mcp.py",
+      "sha256": "7d622647f1896bef54f31c75bd5cc97ab3cfd438a1cd6a67eaf0ca7f7dbad75f",
+      "source_sha256": "7d622647f1896bef54f31c75bd5cc97ab3cfd438a1cd6a67eaf0ca7f7dbad75f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "tools/lmstudio-wan-chat/tests/transport.test.mjs",
+      "sha256": "73ddced9f52febfc2a5ff0ad80bdbc211e84b667efd418029b8c22bf6f367ec0",
+      "source_sha256": "73ddced9f52febfc2a5ff0ad80bdbc211e84b667efd418029b8c22bf6f367ec0",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/docs/ENTWICKLUNGSSTAND-20261020.md",
+      "sha256": "a2ef164a8d4b2ca88087fe293ab9a5531059927f13be67e8eb0c994a38e8ee4b",
+      "source_sha256": "a2ef164a8d4b2ca88087fe293ab9a5531059927f13be67e8eb0c994a38e8ee4b",
+      "sanitized": false,
+      "area": "technical-history"
+    },
+    {
+      "path": "ui/frontend/api.js",
+      "sha256": "6db8ab45c9082be22154408a8b89e3d11c8abe94ad4e7550aef88ee41caa7f7a",
+      "source_sha256": "6db8ab45c9082be22154408a8b89e3d11c8abe94ad4e7550aef88ee41caa7f7a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/app.js",
+      "sha256": "b5d9534ac9db2cdbe1448e1597a6dd4d554accb662f212ddccd981fdea925c34",
+      "source_sha256": "b5d9534ac9db2cdbe1448e1597a6dd4d554accb662f212ddccd981fdea925c34",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/comparison.js",
+      "sha256": "09b351b174079b17c2c22e694b69d6dfbcb65ff69a8d00ee6a4a987bf97f76cc",
+      "source_sha256": "09b351b174079b17c2c22e694b69d6dfbcb65ff69a8d00ee6a4a987bf97f76cc",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/forms.js",
+      "sha256": "d60490f745c12d5af153b0d11e4cd30e51341d6549d98e40ecee54dfa356f09d",
+      "source_sha256": "d60490f745c12d5af153b0d11e4cd30e51341d6549d98e40ecee54dfa356f09d",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/index.html",
+      "sha256": "86605acd034a694506a2bd80aa85bc7e59d36328b1fe97d52bf03e52ca34522a",
+      "source_sha256": "86605acd034a694506a2bd80aa85bc7e59d36328b1fe97d52bf03e52ca34522a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/proposals.js",
+      "sha256": "c306e3de8b3b2db3edc76fe9bbe82ca345bd38aca326ad6337a413cec8a4f1cb",
+      "source_sha256": "c306e3de8b3b2db3edc76fe9bbe82ca345bd38aca326ad6337a413cec8a4f1cb",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/regions.js",
+      "sha256": "7bd11b7705c31ce4b9796176aea8a8b11204ea61d58b5601d70afbb4d6269d7e",
+      "source_sha256": "7bd11b7705c31ce4b9796176aea8a8b11204ea61d58b5601d70afbb4d6269d7e",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/resources.js",
+      "sha256": "719e83f1cfc3c943c58464c4ecbe82fdeab2d4e0a73daa11149238036f575696",
+      "source_sha256": "719e83f1cfc3c943c58464c4ecbe82fdeab2d4e0a73daa11149238036f575696",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/results.js",
+      "sha256": "97c0ba0427fe56474861d5e5d80e73243b2c374dfe3913f6c8317ccfa95cef00",
+      "source_sha256": "97c0ba0427fe56474861d5e5d80e73243b2c374dfe3913f6c8317ccfa95cef00",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/frontend/styles.css",
+      "sha256": "d25570af55a295cd922cfb6cea35791cc7bd8a0ae2f1184edf0102614960f158",
+      "source_sha256": "d25570af55a295cd922cfb6cea35791cc7bd8a0ae2f1184edf0102614960f158",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/__init__.py",
+      "sha256": "4d313980dddb217065e40bd69990e2d7ff1fb7c2d46410d704e79f5a3b1a368b",
+      "source_sha256": "4d313980dddb217065e40bd69990e2d7ff1fb7c2d46410d704e79f5a3b1a368b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/__main__.py",
+      "sha256": "b48d65edc9e3b1b122714688a4098be359b996c845ccdb72ffca9b13fc20b7e6",
+      "source_sha256": "b48d65edc9e3b1b122714688a4098be359b996c845ccdb72ffca9b13fc20b7e6",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/catalog.py",
+      "sha256": "715c7e06fe310541fab9527911cb022e8ac86a355ac2ebdcaca49c3c6e3e6f7c",
+      "source_sha256": "715c7e06fe310541fab9527911cb022e8ac86a355ac2ebdcaca49c3c6e3e6f7c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/comfy.py",
+      "sha256": "645151404693eddbc2a35942fedc3b54972c75e33a2f88d30772b72cece02c40",
+      "source_sha256": "645151404693eddbc2a35942fedc3b54972c75e33a2f88d30772b72cece02c40",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/edit_region.py",
+      "sha256": "0e45c448d6f8136e8b9987b28ea1e1fe9d7785ce11933f2ee81c429010b4ecf0",
+      "source_sha256": "0e45c448d6f8136e8b9987b28ea1e1fe9d7785ce11933f2ee81c429010b4ecf0",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/files.py",
+      "sha256": "7de84e777324ad2184f56535da3315525b6f703b9bd2f1eda988c7dc905b3e2e",
+      "source_sha256": "7de84e777324ad2184f56535da3315525b6f703b9bd2f1eda988c7dc905b3e2e",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/jobs.py",
+      "sha256": "f30aa728d46316de77ec06452fef06e4839d08b2ae66494ea1b34833d3f2ec47",
+      "source_sha256": "f30aa728d46316de77ec06452fef06e4839d08b2ae66494ea1b34833d3f2ec47",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/model_library.py",
+      "sha256": "6c935a10e916e84b03bbf2c2dc90ad7b44a1925e1e8304be7f8b0b6dae2ba43f",
+      "source_sha256": "6c935a10e916e84b03bbf2c2dc90ad7b44a1925e1e8304be7f8b0b6dae2ba43f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/paths.py",
+      "sha256": "b2f5178db3ecc523c3306f9cfb2cf293772d7b0a6b125a1fc4536dcba1839ee4",
+      "source_sha256": "b2f5178db3ecc523c3306f9cfb2cf293772d7b0a6b125a1fc4536dcba1839ee4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/progress.py",
+      "sha256": "4b5e994bc8184a163251c66b57e83683a040cb0b990e699429005479fb1a5d44",
+      "source_sha256": "4b5e994bc8184a163251c66b57e83683a040cb0b990e699429005479fb1a5d44",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/providers/__init__.py",
+      "sha256": "c2bb949431890430ef61bd8e63034c6ce0178d785f653914468882099931b114",
+      "source_sha256": "c2bb949431890430ef61bd8e63034c6ce0178d785f653914468882099931b114",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/providers/base.py",
+      "sha256": "87a553c44f132cc03491a8905efa003f823152cfd779c051d21a5e213d407a25",
+      "source_sha256": "87a553c44f132cc03491a8905efa003f823152cfd779c051d21a5e213d407a25",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/providers/lmstudio.py",
+      "sha256": "a33edfbe9421d156477ab891bbe46ed2179ac07b1fdc8d70534da259d01529b1",
+      "source_sha256": "a33edfbe9421d156477ab891bbe46ed2179ac07b1fdc8d70534da259d01529b1",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/providers/ollama.py",
+      "sha256": "723b8b16acfafc80a7e4707c3f7648f1900dba47b597156bd98007394a535946",
+      "source_sha256": "723b8b16acfafc80a7e4707c3f7648f1900dba47b597156bd98007394a535946",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/resources.py",
+      "sha256": "1780ff0bdaf0b5c3e10545afe67624eb8f9ed19cc990cc5e8a18355d3036f96e",
+      "source_sha256": "1780ff0bdaf0b5c3e10545afe67624eb8f9ed19cc990cc5e8a18355d3036f96e",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/server.py",
+      "sha256": "e286f806b5dec263dbeb4618585f58d9079c9062fbf62e68dffd29b114ad0938",
+      "source_sha256": "e286f806b5dec263dbeb4618585f58d9079c9062fbf62e68dffd29b114ad0938",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/settings.py",
+      "sha256": "7bc7e81e40bf2b510494e1d4f4eded47712a81a7704d0066beeb7b6505afc1c8",
+      "source_sha256": "7bc7e81e40bf2b510494e1d4f4eded47712a81a7704d0066beeb7b6505afc1c8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/tool_planning.py",
+      "sha256": "1d1d72f73e2e50bebe5e5d86f11183e673c83f475c82b82335071d9e6e8240b8",
+      "source_sha256": "1d1d72f73e2e50bebe5e5d86f11183e673c83f475c82b82335071d9e6e8240b8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/morph_ui/versions.py",
+      "sha256": "e2d18aa1131fb21daad60c195c902b52635ef495e5f023e6e11fa493ef16eb32",
+      "source_sha256": "e2d18aa1131fb21daad60c195c902b52635ef495e5f023e6e11fa493ef16eb32",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/package.json",
+      "sha256": "d1461325671f1ac3b45e25653e6f1020375279462e683ef616bfceadad7c63b0",
+      "source_sha256": "d1461325671f1ac3b45e25653e6f1020375279462e683ef616bfceadad7c63b0",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/README.md",
+      "sha256": "cbc0ff695070e35ec7fd60b953a0f268ea653ba9b7b149619f49caeb581f5a09",
+      "source_sha256": "cbc0ff695070e35ec7fd60b953a0f268ea653ba9b7b149619f49caeb581f5a09",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/register_qwen_paths.py",
+      "sha256": "ac631cfeb9e591901fe973825057ca17f099aeafae130248c240a627a04a31d8",
+      "source_sha256": "ac631cfeb9e591901fe973825057ca17f099aeafae130248c240a627a04a31d8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/app.test.mjs",
+      "sha256": "e3a9cb4015fed9118c33d2daa5d28ffff79f082cb6548e124b92a39a4c671d04",
+      "source_sha256": "e3a9cb4015fed9118c33d2daa5d28ffff79f082cb6548e124b92a39a4c671d04",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/frontend.test.mjs",
+      "sha256": "ce683c68ec2e7ee59f331d5ea8a1d6758946b19746d2d6cdf90b1350293ecb47",
+      "source_sha256": "ce683c68ec2e7ee59f331d5ea8a1d6758946b19746d2d6cdf90b1350293ecb47",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/image_editing.test.mjs",
+      "sha256": "9e6459e5ebd593edc307e5f2127d7161d4aa259941d1360c11c0003217351ec4",
+      "source_sha256": "9e6459e5ebd593edc307e5f2127d7161d4aa259941d1360c11c0003217351ec4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/model_fixtures.py",
+      "sha256": "28e9a3886e125fb2db5ceec153eecd1a528121d75b808c91c6899c2e297633ab",
+      "source_sha256": "28e9a3886e125fb2db5ceec153eecd1a528121d75b808c91c6899c2e297633ab",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/model_forms.test.mjs",
+      "sha256": "34b45891339af92a588d8543ed3b35bd2164ac1aeffd2eab547ebe46acf2f2a5",
+      "source_sha256": "34b45891339af92a588d8543ed3b35bd2164ac1aeffd2eab547ebe46acf2f2a5",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/resources.test.mjs",
+      "sha256": "385b434b398c95eccbd66d852611322b1acd7c5a6c6f4b260f69c7b90b358e14",
+      "source_sha256": "385b434b398c95eccbd66d852611322b1acd7c5a6c6f4b260f69c7b90b358e14",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/results.test.mjs",
+      "sha256": "a435d670cb36adfe9a2fb0ab26fcbf5f0783a6ce8abee0d1715f66ce38a0c6e5",
+      "source_sha256": "a435d670cb36adfe9a2fb0ab26fcbf5f0783a6ce8abee0d1715f66ce38a0c6e5",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/support.py",
+      "sha256": "a8ee3d570cdcfc292216955648d11b8562b3a5ad2c94ec48d4607bd95f5b7799",
+      "source_sha256": "a8ee3d570cdcfc292216955648d11b8562b3a5ad2c94ec48d4607bd95f5b7799",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_catalog_files.py",
+      "sha256": "ad08fcde482c71e17c10113e60f4b99ab55d6aebb3f59e065e36e3942c7e0654",
+      "source_sha256": "ad08fcde482c71e17c10113e60f4b99ab55d6aebb3f59e065e36e3942c7e0654",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_comfy_service.py",
+      "sha256": "a584166b7ac5fea423d260a042303a5e48ccb450ac1398fe24c2f1620b2101d2",
+      "source_sha256": "a584166b7ac5fea423d260a042303a5e48ccb450ac1398fe24c2f1620b2101d2",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_edit_region.py",
+      "sha256": "b2b7038a0cbdf545b845ac98458a5a6cc3644a678c5cae9134199068c28832f4",
+      "source_sha256": "b2b7038a0cbdf545b845ac98458a5a6cc3644a678c5cae9134199068c28832f4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_emergency_release.py",
+      "sha256": "cc28a3e9550709919abaf4f0292e5e3aabeae379d7783c5959f95ae7e0c67d9a",
+      "source_sha256": "cc28a3e9550709919abaf4f0292e5e3aabeae379d7783c5959f95ae7e0c67d9a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_german_catalog.py",
+      "sha256": "7a16057514bd94ef6bd865fe6c7e2704a0ca3cef4272b1c2c844f4c552c66f5b",
+      "source_sha256": "7a16057514bd94ef6bd865fe6c7e2704a0ca3cef4272b1c2c844f4c552c66f5b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_image_history_lifecycle.py",
+      "sha256": "9fbafe1af4ac5897c794596cd67b39c838cfa9089844bce4b887ffdd5f756791",
+      "source_sha256": "9fbafe1af4ac5897c794596cd67b39c838cfa9089844bce4b887ffdd5f756791",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_jobs.py",
+      "sha256": "f651ccf46c028c8f49081667887660325a06b2cb80ac5129040ebeaf49da9fb9",
+      "source_sha256": "f651ccf46c028c8f49081667887660325a06b2cb80ac5129040ebeaf49da9fb9",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_krea_profile.py",
+      "sha256": "341a7e6ba6c2c68112a0b68ad12c35bc2d91515aaa8eea58c19a61abfcfe7f83",
+      "source_sha256": "341a7e6ba6c2c68112a0b68ad12c35bc2d91515aaa8eea58c19a61abfcfe7f83",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_language_gate.py",
+      "sha256": "4fef5e54c685eaf72434c53cd76546374d621a6b43292e750ccfde2cc2d19a5d",
+      "source_sha256": "4fef5e54c685eaf72434c53cd76546374d621a6b43292e750ccfde2cc2d19a5d",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_assignments.py",
+      "sha256": "7dcb769824c12624ac060470867daaa480343ae85266694c9e925a22f76272df",
+      "source_sha256": "7dcb769824c12624ac060470867daaa480343ae85266694c9e925a22f76272df",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_dependencies.py",
+      "sha256": "0884a190e7870da108f17b03c3e682630e57835bbd0d31df45ca608393a4a45d",
+      "source_sha256": "0884a190e7870da108f17b03c3e682630e57835bbd0d31df45ca608393a4a45d",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_library.py",
+      "sha256": "3c0e7d9d7b32a6fb045d128526b029c820e74b5c4d770a4cdf38c149037a04e4",
+      "source_sha256": "3c0e7d9d7b32a6fb045d128526b029c820e74b5c4d770a4cdf38c149037a04e4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_links.py",
+      "sha256": "aaed1135e6f665941a81263d3c1e63dc405308c3a8daa36b7c047921ec261dbf",
+      "source_sha256": "aaed1135e6f665941a81263d3c1e63dc405308c3a8daa36b7c047921ec261dbf",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_routes.py",
+      "sha256": "8681248fe4aebe88762b290157985323f346c732ca53623cc5a31d921fdf96b4",
+      "source_sha256": "8681248fe4aebe88762b290157985323f346c732ca53623cc5a31d921fdf96b4",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_model_selection.py",
+      "sha256": "6eaaa9db97a42969c2808dfcc840ba0bb49e0d8e5936b2d80b1c15c931f01bba",
+      "source_sha256": "6eaaa9db97a42969c2808dfcc840ba0bb49e0d8e5936b2d80b1c15c931f01bba",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_ollama_http.py",
+      "sha256": "9a16cecf41aa62c1be913fdd49dee9b7b7f6d37d06577fae3d49c9074f2b1af0",
+      "source_sha256": "9a16cecf41aa62c1be913fdd49dee9b7b7f6d37d06577fae3d49c9074f2b1af0",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_ollama_integration.py",
+      "sha256": "2461f0a85ab9bc032cce32dd9fd5f7a756ca272ea5475db254a50ecdb8fa7fa0",
+      "source_sha256": "2461f0a85ab9bc032cce32dd9fd5f7a756ca272ea5475db254a50ecdb8fa7fa0",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_ollama_provider.py",
+      "sha256": "b657e2879222229387363c440ec05773f98f6f504eff44206f5bda24b7c9f353",
+      "source_sha256": "b657e2879222229387363c440ec05773f98f6f504eff44206f5bda24b7c9f353",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_ollama_settings.py",
+      "sha256": "8f76c25cd7b811f4f0ccf53853232fecc92813388071ae8fc42b96a656861b1b",
+      "source_sha256": "8f76c25cd7b811f4f0ccf53853232fecc92813388071ae8fc42b96a656861b1b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_progress.py",
+      "sha256": "3aaa0233326a44af9c6914baeafe68e7fadd68029ec801d4231f939875979abe",
+      "source_sha256": "3aaa0233326a44af9c6914baeafe68e7fadd68029ec801d4231f939875979abe",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_prompt_profiles.py",
+      "sha256": "938204f4dc3a6dd0d8e2730285881d52100567aa1fa6db3b28195d69d74ecc5a",
+      "source_sha256": "938204f4dc3a6dd0d8e2730285881d52100567aa1fa6db3b28195d69d74ecc5a",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_provider.py",
+      "sha256": "fbacd5bde04633376e5eb3d132e5cb482bb3d394d34c877d4f221234e58e931b",
+      "source_sha256": "fbacd5bde04633376e5eb3d132e5cb482bb3d394d34c877d4f221234e58e931b",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_resources.py",
+      "sha256": "d6a46ba355bddd9134b875f00708fb6a44ea2a4d1f445a4ef267ff806790a390",
+      "source_sha256": "d6a46ba355bddd9134b875f00708fb6a44ea2a4d1f445a4ef267ff806790a390",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_server.py",
+      "sha256": "58f1a87c82dcc79f29a417a1a554db821604ee9082df8d964fb6369f7f56c464",
+      "source_sha256": "58f1a87c82dcc79f29a417a1a554db821604ee9082df8d964fb6369f7f56c464",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_tool_proposals.py",
+      "sha256": "ba5f761bdbdd90c7301dbde752291bc88b69e1ef5393af1836e6d21ca152b123",
+      "source_sha256": "ba5f761bdbdd90c7301dbde752291bc88b69e1ef5393af1836e6d21ca152b123",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_ui_restart.py",
+      "sha256": "1ccba040570896cd52e7becb56e3707890b88fee5d87d7ced500cea92047e808",
+      "source_sha256": "1ccba040570896cd52e7becb56e3707890b88fee5d87d7ced500cea92047e808",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_version_routes.py",
+      "sha256": "340ded86059e1db3aad078bca482ce355ed961a00450ad1d84acf6e74d5c91f2",
+      "source_sha256": "340ded86059e1db3aad078bca482ce355ed961a00450ad1d84acf6e74d5c91f2",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_versioned_jobs.py",
+      "sha256": "abe2799c6fdee9055a0cd88d11c2df18caa21b8d61b5bc02f60ec688d269bd92",
+      "source_sha256": "abe2799c6fdee9055a0cd88d11c2df18caa21b8d61b5bc02f60ec688d269bd92",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/test_versions.py",
+      "sha256": "7f4fe890891bcaee266b5b3d7104b72ac132bbedfc227f96aa144659d97f0d44",
+      "source_sha256": "7f4fe890891bcaee266b5b3d7104b72ac132bbedfc227f96aa144659d97f0d44",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "ui/tests/tool_proposals.test.mjs",
+      "sha256": "f321670f2cae642b1906fd5350e3a4833a882aafca33deae1eb80c35e243952f",
+      "source_sha256": "f321670f2cae642b1906fd5350e3a4833a882aafca33deae1eb80c35e243952f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Desktop-Krea2-Turbo-I2I-Original.json",
+      "sha256": "a4687a5096c3cc733a9fbde02db5a3d304a60982fcc3e9c7c92adbdb7f7eabdc",
+      "source_sha256": "a4687a5096c3cc733a9fbde02db5a3d304a60982fcc3e9c7c92adbdb7f7eabdc",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/FireRed-Edit-1.1-GGUF-api.json",
+      "sha256": "0b1096eeaf640bf2f05a84e1839cef5cc2e73217f5bfb4c5c0a372068a071721",
+      "source_sha256": "0b1096eeaf640bf2f05a84e1839cef5cc2e73217f5bfb4c5c0a372068a071721",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/FireRed-Edit-1.1-GGUF.json",
+      "sha256": "282d2f150b95152501de882554f219b86a31e03b134ee74b363f50e9628195ba",
+      "source_sha256": "282d2f150b95152501de882554f219b86a31e03b134ee74b363f50e9628195ba",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/firered-image-edit-1.1.json",
+      "sha256": "c91a0b0c7225d9916dd7898b3031620d5e0ebdb7a58695e2bff2e796d20a0568",
+      "source_sha256": "c91a0b0c7225d9916dd7898b3031620d5e0ebdb7a58695e2bff2e796d20a0568",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/flux2Klein9bUncensoredImageEdit_v10.json",
+      "sha256": "8cb0d02c1fc11152d4cacba885ca9fe4317c6dc45b24aab5675f160f7c3eba24",
+      "source_sha256": "8cb0d02c1fc11152d4cacba885ca9fe4317c6dc45b24aab5675f160f7c3eba24",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/KREA2-SNOFS-Edit-20261015-api.json",
+      "sha256": "eca1d9441ef25b0cff909682f0938fe98a6e7eb125cd1b8114833abacd61d89c",
+      "source_sha256": "eca1d9441ef25b0cff909682f0938fe98a6e7eb125cd1b8114833abacd61d89c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/KREA2-SNOFS-Edit-20261015.json",
+      "sha256": "8cb4fcb85d96c4e7f3536bb617b6c0eeadc557513f1d76c66115b2e29cfc9d47",
+      "source_sha256": "8cb4fcb85d96c4e7f3536bb617b6c0eeadc557513f1d76c66115b2e29cfc9d47",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/KREA2-SNOFS-Edit-Ref4-20261015-api.json",
+      "sha256": "20e7a95fbefe82303e773a6fae68ad463c665a8a200967031cce899cbde12a87",
+      "source_sha256": "20e7a95fbefe82303e773a6fae68ad463c665a8a200967031cce899cbde12a87",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/KREA2-SNOFS-Edit-Ref4-20261015.json",
+      "sha256": "09f7e72f9ccf40b83d679120e885bf7b6881d4ef4429ca1f4f45d518eb04b51d",
+      "source_sha256": "09f7e72f9ccf40b83d679120e885bf7b6881d4ef4429ca1f4f45d518eb04b51d",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/LMStudio-Bildbearbeitung-Kontext-api.json",
+      "sha256": "4ca9a4d5afe778e8b30ae4f3142edbae0574fb9ba905f2d949c4bf4e18c2edf9",
+      "source_sha256": "4ca9a4d5afe778e8b30ae4f3142edbae0574fb9ba905f2d949c4bf4e18c2edf9",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/LMStudio-Gesichtstausch-ReActor-api.json",
+      "sha256": "041947635571b3d246ff08ed04aeb74d0e67d1a9def93040b32194bd6b80d3cc",
+      "source_sha256": "041947635571b3d246ff08ed04aeb74d0e67d1a9def93040b32194bd6b80d3cc",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/LMStudio-Gesichtstausch-ReActor.json",
+      "sha256": "66ad5f21e9dbf4d98ab4b632383903d13ca70e143a69c8d72c768177794379e2",
+      "source_sha256": "66ad5f21e9dbf4d98ab4b632383903d13ca70e143a69c8d72c768177794379e2",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/LMStudio-Video-aus-Bild-Wan-api.json",
+      "sha256": "14351b69e8e898699969c7f25fd770fb999165c1d6f0918c8e9cda7480f86ea8",
+      "source_sha256": "14351b69e8e898699969c7f25fd770fb999165c1d6f0918c8e9cda7480f86ea8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/MORPH-Qwen-Image-21-api.json",
+      "sha256": "995efca904ccf29b96d522bbabad3d208760e58f87629a9181c4d1f2e8a9732f",
+      "source_sha256": "995efca904ccf29b96d522bbabad3d208760e58f87629a9181c4d1f2e8a9732f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase1-Bildtest.json",
+      "sha256": "fcf3e1832d68f9003b98e792125e5bcb947777dfc6daaeffb21ce2f207211f43",
+      "source_sha256": "fcf3e1832d68f9003b98e792125e5bcb947777dfc6daaeffb21ce2f207211f43",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/phase1-test-api.json",
+      "sha256": "3d86049bbfe2de64b94fea95ac05dcb7214ed41e0b6cb573b1f98f9f8731ac2c",
+      "source_sha256": "3d86049bbfe2de64b94fea95ac05dcb7214ed41e0b6cb573b1f98f9f8731ac2c",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase2-1-Fotobild-SDXL-api.json",
+      "sha256": "102bafa45cfc62b51fe1a572a2d02cfd1a2e313abc5a3ba0122a95e0d355af58",
+      "source_sha256": "102bafa45cfc62b51fe1a572a2d02cfd1a2e313abc5a3ba0122a95e0d355af58",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase2-1-Fotobild-SDXL.json",
+      "sha256": "82c4dd7d9f4567f361f72077f991b4f5ab08e89aeef84bfc7a1fb6872201cba7",
+      "source_sha256": "82c4dd7d9f4567f361f72077f991b4f5ab08e89aeef84bfc7a1fb6872201cba7",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase2-2-Bildbearbeitung-Kontext-api.json",
+      "sha256": "c39cf4a3c1157982e87d5bc4573aa1d1f99da1afea3820149243746091534c48",
+      "source_sha256": "c39cf4a3c1157982e87d5bc4573aa1d1f99da1afea3820149243746091534c48",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase2-2-Bildbearbeitung-Kontext.json",
+      "sha256": "70bf1663f2cfcd8a5296786ea7be46b8ac998306ed377594c1b7f77fc2a0f5e8",
+      "source_sha256": "70bf1663f2cfcd8a5296786ea7be46b8ac998306ed377594c1b7f77fc2a0f5e8",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase3-1-Erwachsenenportraet-SDXL-api.json",
+      "sha256": "00ac9d06f7a01a7e155df37bafefeacf05642ac4575b3b179638b71d12622a83",
+      "source_sha256": "00ac9d06f7a01a7e155df37bafefeacf05642ac4575b3b179638b71d12622a83",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase3-1-Erwachsenenportraet-SDXL.json",
+      "sha256": "5ad52743007a6a8fd5fcbe7b68e82d3b755c1b427e6d50e078912163a2ab93fd",
+      "source_sha256": "5ad52743007a6a8fd5fcbe7b68e82d3b755c1b427e6d50e078912163a2ab93fd",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase3-1-Identitaet-Kontext-api.json",
+      "sha256": "56b0d20db47407bb0f40a6bc84a024cde1bf217b8d7cd26bdb9c71484b7ba834",
+      "source_sha256": "56b0d20db47407bb0f40a6bc84a024cde1bf217b8d7cd26bdb9c71484b7ba834",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Phase3-1-Identitaet-Kontext.json",
+      "sha256": "a3f6a352768b639924487b1912bec160c7f1649089bf7a8d45321b85f7dcad03",
+      "source_sha256": "a3f6a352768b639924487b1912bec160c7f1649089bf7a8d45321b85f7dcad03",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/ReActor-Official-Original.json",
+      "sha256": "6d042c5d8d7748f08cd1494d82d542ec65164b6de13bbf88463bf03d94a6a73e",
+      "source_sha256": "6d042c5d8d7748f08cd1494d82d542ec65164b6de13bbf88463bf03d94a6a73e",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Wan2.2-Remix-Painter-LMStudio-api.json",
+      "sha256": "b4c7ec0c11c7b888471843d38bdb9b532caefa5ea92f765ba1b42f2be026ec6f",
+      "source_sha256": "b4c7ec0c11c7b888471843d38bdb9b532caefa5ea92f765ba1b42f2be026ec6f",
+      "sanitized": false,
+      "area": "application"
+    },
+    {
+      "path": "workflows/Wan2.2-Remix-Painter-Original.json",
+      "sha256": "8ea91fa7f2edf2fb36590054e7fd1499ad750217e28fd5d45b60f124b7528d87",
+      "source_sha256": "8ea91fa7f2edf2fb36590054e7fd1499ad750217e28fd5d45b60f124b7528d87",
+      "sanitized": false,
+      "area": "application"
+    }
+  ]
+}

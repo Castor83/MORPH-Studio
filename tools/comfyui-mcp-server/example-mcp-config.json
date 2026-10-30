@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "comfyui": {
+      "command": "python",
+      "args": [
+        "REPLACE_WITH_FULL_PATH/comfyui-mcp/server.py",
+        "--comfyui-url", "http://127.0.0.1:8188",
+        "--comfyui-output-dir", "C:/path/to/ComfyUI/output"
+      ]
+    }
+  }
+}

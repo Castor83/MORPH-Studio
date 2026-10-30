@@ -1,0 +1,453 @@
+{
+  "6": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "Subtle natural motion. Preserve the people, animals, clothing and background of the source image. Static camera.",
+      "clip": [
+        "137",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "CLIP Text Encode (Positive Prompt)"
+    }
+  },
+  "7": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "blurry, low quality, deformed face, distorted hands, extra fingers, extra limbs, flicker, abrupt camera motion, text, watermark",
+      "clip": [
+        "137",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "CLIP Text Encode (Negative Prompt)"
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "58",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VAEDecode"
+    }
+  },
+  "39": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "wan_2.1_vae.safetensors"
+    },
+    "_meta": {
+      "title": "VAELoader"
+    }
+  },
+  "54": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "shift": 8,
+      "model": [
+        "202",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "55": {
+    "class_type": "ModelSamplingSD3",
+    "inputs": {
+      "shift": 8,
+      "model": [
+        "203",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ModelSamplingSD3"
+    }
+  },
+  "57": {
+    "class_type": "KSamplerAdvanced",
+    "inputs": {
+      "add_noise": "enable",
+      "noise_seed": [
+        "105",
+        0
+      ],
+      "steps": [
+        "68",
+        0
+      ],
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "start_at_step": 0,
+      "end_at_step": [
+        "67",
+        0
+      ],
+      "return_with_leftover_noise": "enable",
+      "model": [
+        "54",
+        0
+      ],
+      "positive": [
+        "255",
+        0
+      ],
+      "negative": [
+        "255",
+        1
+      ],
+      "latent_image": [
+        "255",
+        2
+      ]
+    },
+    "_meta": {
+      "title": "KSamplerAdvanced"
+    }
+  },
+  "58": {
+    "class_type": "KSamplerAdvanced",
+    "inputs": {
+      "add_noise": "disable",
+      "noise_seed": [
+        "105",
+        0
+      ],
+      "steps": [
+        "68",
+        0
+      ],
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "start_at_step": [
+        "67",
+        0
+      ],
+      "end_at_step": 10000,
+      "return_with_leftover_noise": "disable",
+      "model": [
+        "55",
+        0
+      ],
+      "positive": [
+        "255",
+        0
+      ],
+      "negative": [
+        "255",
+        1
+      ],
+      "latent_image": [
+        "57",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "KSamplerAdvanced"
+    }
+  },
+  "67": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 4
+    },
+    "_meta": {
+      "title": "Split_step"
+    }
+  },
+  "68": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 8
+    },
+    "_meta": {
+      "title": "Steps"
+    }
+  },
+  "105": {
+    "class_type": "Seed (rgthree)",
+    "inputs": {
+      "seed": 42
+    },
+    "_meta": {
+      "title": "Seed (rgthree)"
+    }
+  },
+  "118": {
+    "class_type": "ImageResize+",
+    "inputs": {
+      "width": [
+        "131",
+        0
+      ],
+      "height": [
+        "130",
+        0
+      ],
+      "interpolation": "lanczos",
+      "method": "fill / crop",
+      "condition": "always",
+      "multiple_of": 0,
+      "image": [
+        "252",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "ImageResize+"
+    }
+  },
+  "130": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 512
+    },
+    "_meta": {
+      "title": "Height"
+    }
+  },
+  "131": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 512
+    },
+    "_meta": {
+      "title": "Width"
+    }
+  },
+  "132": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 81
+    },
+    "_meta": {
+      "title": "Frames"
+    }
+  },
+  "135": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "Wan2.2_Remix_NSFW_i2v_14b_high_lighting_v2.0.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "_meta": {
+      "title": "UNETLoader"
+    }
+  },
+  "136": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "Wan2.2_Remix_NSFW_i2v_14b_low_lighting_v2.0.safetensors",
+      "weight_dtype": "fp8_e4m3fn"
+    },
+    "_meta": {
+      "title": "UNETLoader"
+    }
+  },
+  "137": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "nsfw_wan_umt5-xxl_fp8_scaled.safetensors",
+      "type": "wan",
+      "device": "default"
+    },
+    "_meta": {
+      "title": "CLIPLoader"
+    }
+  },
+  "202": {
+    "class_type": "wanBlockSwap",
+    "inputs": {
+      "model": [
+        "135",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "wanBlockSwap"
+    }
+  },
+  "203": {
+    "class_type": "wanBlockSwap",
+    "inputs": {
+      "model": [
+        "136",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "wanBlockSwap"
+    }
+  },
+  "226": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "frame_rate": 23,
+      "loop_count": 0,
+      "filename_prefix": "LMStudio/Video-Original",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 19,
+      "save_metadata": true,
+      "trim_to_audio": false,
+      "pingpong": false,
+      "save_output": true,
+      "no_preview": false,
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VHS_VideoCombine"
+    }
+  },
+  "250": {
+    "class_type": "INTConstant",
+    "inputs": {
+      "value": 10
+    },
+    "_meta": {
+      "title": "BlockSwap"
+    }
+  },
+  "252": {
+    "class_type": "ImageLoader",
+    "inputs": {
+      "image": ""
+    },
+    "_meta": {
+      "title": "ImageLoader"
+    }
+  },
+  "253": {
+    "class_type": "RIFEInterpolation",
+    "inputs": {
+      "source_fps": 21,
+      "target_fps": 30,
+      "scale": 1,
+      "model_name": "flownet.pkl",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "RIFEInterpolation"
+    }
+  },
+  "254": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "frame_rate": 30,
+      "loop_count": 0,
+      "filename_prefix": "LMStudio/Video-RIFE",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 19,
+      "save_metadata": true,
+      "trim_to_audio": false,
+      "pingpong": false,
+      "save_output": true,
+      "no_preview": false,
+      "images": [
+        "253",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VHS_VideoCombine"
+    }
+  },
+  "255": {
+    "class_type": "PainterI2V",
+    "inputs": {
+      "width": [
+        "131",
+        0
+      ],
+      "height": [
+        "130",
+        0
+      ],
+      "length": [
+        "132",
+        0
+      ],
+      "batch_size": 1,
+      "motion_amplitude": 1.2000000000000002,
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "vae": [
+        "39",
+        0
+      ],
+      "start_image": [
+        "118",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "🎨 PainterI2V (Wan2.2)"
+    }
+  },
+  "256": {
+    "class_type": "VHS_VideoCombine",
+    "inputs": {
+      "frame_rate": 30,
+      "loop_count": 0,
+      "filename_prefix": "LMStudio/Video-Upscale",
+      "format": "video/h264-mp4",
+      "pix_fmt": "yuv420p",
+      "crf": 19,
+      "save_metadata": true,
+      "trim_to_audio": false,
+      "pingpong": false,
+      "save_output": true,
+      "no_preview": false,
+      "images": [
+        "257",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "VHS_VideoCombine"
+    }
+  },
+  "257": {
+    "class_type": "Video_Upscale_With_Model",
+    "inputs": {
+      "model_name": "4x_foolhardy_Remacri.pth",
+      "upscale_method": "nearest-exact",
+      "factor": 2,
+      "device_strategy": "auto",
+      "images": [
+        "253",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Video_Upscale_With_Model"
+    }
+  }
+}

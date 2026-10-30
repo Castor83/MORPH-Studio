@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>MORPH · Dein lokales Studio</title><link rel="stylesheet" href="/static/styles.css"><script type="module" src="/static/app.js"></script></head>
+<body>
+<header class="topbar">
+  <a class="brand" href="/" aria-label="MORPH Startseite"><span class="brand-icon">M</span><span>MORPH<small>DEIN LOKALES STUDIO</small></span></a>
+  <div class="top-actions"><span class="local-pill"><i></i> Auf deinem Rechner</span><button id="settings-open" class="quiet">Verbindung</button></div>
+</header>
+<main class="studio">
+  <aside class="workflow-panel">
+    <p class="eyebrow">DEIN WERKZEUGKASTEN</p><h1>Was möchtest <br>du gestalten?</h1><p class="muted">Dein Werkzeug, dein Bild, deine Idee.</p>
+    <nav id="workflows" aria-label="Werkzeuge"></nav>
+    <div class="aside-note"><span>✦</span><p>Du entscheidest.<br>Ein Vorschlag startet noch keine Berechnung.</p></div>
+    <div id="storage-info" class="storage-info">Projekt wird verbunden …</div>
+  </aside>
+  <section class="workspace">
+    <div class="section-heading"><div><p class="eyebrow">01 · GESTALTEN</p><h2 id="workflow-title">Dein Werkzeug</h2></div><span id="comfy-state" class="subtle-badge">Rechendienst</span></div>
+    <p id="workflow-description" class="muted"></p>
+    <section id="resources" class="resources" aria-label="Speicher des lokalen Rechendienstes"></section>
+    <div class="mode-row"><label class="mode-switch" for="expert-mode"><input id="expert-mode" type="checkbox" role="switch" aria-describedby="mode-help"><span>Expertenmodus</span></label><p id="mode-help" class="muted small">Einfach: Bild zuordnen, Auftrag beschreiben und selbst starten. Passende Voreinstellungen bleiben erhalten.</p></div>
+    <div id="workflow-issues" class="notice warning" hidden></div>
+    <form id="workflow-form">
+      <div id="image-roles" class="image-roles"></div>
+      <section id="edit-region" class="edit-region" aria-label="Bereichsauswahl" hidden></section>
+      <div id="controls"></div>
+      <div id="expert-settings" hidden>
+      <details id="workflow-model-details" class="image-library" open hidden><summary>Modelle für dieses Werkzeug</summary><p class="muted small">Diese Bild-, Video- und Zusatzmodelle gehören zur aktuellen Auswahl. Sie werden erst mit „Berechnung starten“ verwendet.</p><div id="workflow-models"></div></details>
+      <details class="image-library"><summary>Erkannte Modelldateien · <span id="image-model-count"></span></summary><p class="muted small">Jedes Werkzeug bietet passende Modelle an. Textencoder, VAE und LoRA erfüllen eigene Aufgaben.</p><button id="refresh-image-models" type="button" class="quiet small">Bildmodell-Liste aktualisieren</button><div id="image-model-files"></div></details>
+      </div>
+      <div class="start-row"><div><p id="start-hint" class="muted">Ein Klick startet die Berechnung.</p><button id="resolve-request" type="button" class="quiet small" hidden>Startbeleg klären</button></div><button id="start" type="submit" class="primary">Berechnung starten <span aria-hidden="true">↗</span></button></div>
+    </form>
+    <section class="results-panel">
+      <div class="section-heading"><div><p class="eyebrow">02 · ERGEBNIS</p><h2>Deine Vorschau</h2></div><button id="cancel" class="danger quiet" hidden>Auftrag abbrechen</button></div>
+      <div id="result" aria-live="polite"></div>
+      <div class="history-heading"><h3>Letzte Aufträge</h3><button id="refresh-jobs" class="quiet small">Aktualisieren</button></div>
+      <div id="history" class="history"><p class="muted">Noch keine Aufträge.</p></div>
+      <section class="image-history" aria-labelledby="image-history-heading"><div class="history-heading"><h3 id="image-history-heading">Bildprojekte und Versionen</h3><button id="refresh-projects" type="button" class="quiet small">Projekte aktualisieren</button></div><p class="muted small">Originale bleiben erhalten. Öffnen zeigt den Verlauf; eine Version wird erst mit deiner Auswahl zum nächsten Ausgangsbild. Jede Berechnung startest du selbst.</p><p id="image-context" class="muted small"></p><p id="project-error" class="error-text" role="alert" hidden></p><button id="save-original" type="button" class="quiet small" hidden>Original erneut sichern</button><div id="image-projects" class="image-projects"></div><section id="version-comparison" class="version-comparison" aria-label="Versionsvergleich" hidden></section><div id="image-versions"></div></section>
+    </section>
+  </section>
+  <aside class="assistant-panel">
+    <details class="optional-assistant"><summary>Optional: Prompt-Hilfe mit Ollama</summary><div class="assistant-content">
+    <p class="eyebrow">OPTIONALER PROMPT-ASSISTENT</p><h2>In deinen Worten.</h2><p class="muted">Das Ollama-Sprachmodell hilft bei Anweisungen und schlägt Werkzeuge vor. Du kannst alle sechs Werkzeuge links ohne dieses Sprachmodell starten.</p>
+    <div class="model-card"><label for="model">Ollama-Sprachmodell · nur für Vorschläge</label><div class="select-row"><select id="model"><option value="">Modellliste wird geladen …</option></select><button id="refresh-models" class="square quiet" aria-label="Modellliste aktualisieren">↻</button></div>
+      <label for="instance" id="instance-label" hidden>Geladene Instanz</label><select id="instance" hidden></select>
+      <p id="model-info" class="muted small">Verbindung wird geprüft …</p><div class="button-row"><button id="load-model" class="secondary small">Modell laden</button><button id="unload-model" class="quiet small">Freigeben</button></div>
+    </div>
+    <label class="field" for="instruction"><span>Dein Auftrag</span><textarea id="instruction" rows="6" maxlength="8000" placeholder="Zum Beispiel: Färbe nur die Tasse blau. Alles andere soll so bleiben."></textarea></label>
+    <button id="propose" class="secondary full">✦ Vorschlag erstellen</button>
+    <div id="proposal" class="proposal" hidden aria-live="polite"><p class="eyebrow">DEIN VORSCHLAG ZUR DURCHSICHT</p><p class="proposal-note">Jeden Schritt bestätigst du einzeln. Der ursprüngliche Auftrag und die Vorherwerte bleiben zur Prüfung erhalten. Übernehmen füllt nur das Formular. Wähle die passenden Bilder und starte jede Berechnung selbst. Ergebnisse werden nicht automatisch weitergereicht.</p><div id="proposal-steps"></div></div>
+    <div class="assistant-footer"><span class="line-mark"></span><p>Deine Bilder und Aufträge bleiben lokal. Du kannst jedes Werkzeug auch ohne Sprachmodell bedienen.</p></div>
+    </div></details>
+  </aside>
+</main>
+<div id="feedback" class="feedback" role="status" aria-live="polite" hidden></div>
+<dialog id="settings-dialog"><form id="settings-form"><div class="dialog-heading"><h2>Lokale Verbindung</h2><button id="settings-close" type="button" class="square quiet" aria-label="Schließen">×</button></div><p class="muted">Ollama stellt dein Sprachmodell im Hintergrund bereit. Starte Ollama; die übliche lokale Adresse ist unten eingetragen.</p><label class="field"><span>Serveradresse</span><input id="endpoint" type="url" required placeholder="http://127.0.0.1:11434"></label><label class="field"><span>Zugangsschlüssel · optional</span><input id="token" type="password" autocomplete="new-password" placeholder="Leer lassen, um vorhandenen Schlüssel zu behalten"></label><p id="token-info" class="muted small"></p><label class="check"><input id="remove-token" type="checkbox"> Gespeicherten Zugangsschlüssel entfernen</label><p id="settings-error" class="error-text" role="alert" hidden></p><button class="primary full" type="submit">Verbindung speichern</button></form></dialog>
+<noscript><p>Bitte JavaScript für die lokale MORPH-Oberfläche aktivieren.</p></noscript>
+</body></html>
