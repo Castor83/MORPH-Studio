@@ -1,0 +1,159 @@
+{
+  "55": {
+    "class_type": "UnetLoaderGGUF",
+    "inputs": {
+      "unet_name": "KREA 2 Edit SNOFS Merge Q5 - Krea2.gguf"
+    }
+  },
+  "56": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3vl_4b_fp8_scaled.safetensors",
+      "type": "krea2",
+      "device": "default"
+    }
+  },
+  "57": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "72": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "MORPH-KREA2-synthetic-portrait-20261015.png"
+    }
+  },
+  "73": {
+    "class_type": "VAEEncode",
+    "inputs": {
+      "pixels": [
+        "72",
+        0
+      ],
+      "vae": [
+        "57",
+        0
+      ]
+    }
+  },
+  "82": {
+    "class_type": "EmptySD3LatentImage",
+    "inputs": {
+      "width": 768,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "79": {
+    "class_type": "Krea2EditModelPatch",
+    "inputs": {
+      "model": [
+        "55",
+        0
+      ],
+      "source_latent": [
+        "73",
+        0
+      ],
+      "vae": [
+        "57",
+        0
+      ],
+      "source_image": [
+        "72",
+        0
+      ],
+      "target_latent": [
+        "82",
+        0
+      ],
+      "ref_boost": 4.0,
+      "ref_boost_a": 1.0,
+      "fit_mode": "fit"
+    }
+  },
+  "84": {
+    "class_type": "Krea2EditGroundedEncode",
+    "inputs": {
+      "clip": [
+        "56",
+        0
+      ],
+      "prompt": "Change only the red T-shirt to a dark blue T-shirt. Preserve the same man, his facial identity, hairstyle, beard, expression, pose, gray background and lighting. Keep the same framing. Photorealistic.",
+      "image": [
+        "72",
+        0
+      ],
+      "grounding_px": 768,
+      "system_prompt": ""
+    }
+  },
+  "85": {
+    "class_type": "Krea2EditGroundedEncode",
+    "inputs": {
+      "clip": [
+        "56",
+        0
+      ],
+      "prompt": "",
+      "image": [
+        "72",
+        0
+      ],
+      "grounding_px": 768,
+      "system_prompt": ""
+    }
+  },
+  "53": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "79",
+        0
+      ],
+      "seed": 20261015,
+      "steps": 8,
+      "cfg": 1.0,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "84",
+        0
+      ],
+      "negative": [
+        "85",
+        0
+      ],
+      "latent_image": [
+        "82",
+        0
+      ],
+      "denoise": 1.0
+    }
+  },
+  "54": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "53",
+        0
+      ],
+      "vae": [
+        "57",
+        0
+      ]
+    }
+  },
+  "29": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "54",
+        0
+      ],
+      "filename_prefix": "KREA2-Tests/20261015-Ref4/SNOFS_shirt_blue_ref4"
+    }
+  }
+}

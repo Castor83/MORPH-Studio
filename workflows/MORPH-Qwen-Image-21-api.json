@@ -1,0 +1,10 @@
+{
+  "1": {"class_type":"UNETLoader","inputs":{"unet_name":"morph-ui-qwen21/noctQUncensoredRealismBuiltOn_v40Base_fp16.safetensors","weight_dtype":"default"}},
+  "2": {"class_type":"CLIPLoader","inputs":{"clip_name":"morph-ui-qwen21/qwenImage21TextEncoderOriginal_v10_3241887.safetensors","type":"qwen_image","device":"default"}},
+  "3": {"class_type":"VAELoader","inputs":{"vae_name":"morph-ui-qwen21/qwenImage21VAEOriginalBf16_v10.safetensors"}},
+  "4": {"class_type":"EmptyLatentImage","inputs":{"width":1024,"height":1024,"batch_size":1}},
+  "5": {"class_type":"KSampler","inputs":{"model":["1",0],"positive":["6",0],"negative":["6",1],"latent_image":["4",0],"seed":42,"steps":25,"cfg":1.0,"sampler_name":"euler","scheduler":"simple","denoise":1.0}},
+  "6": {"class_type":"TextEncodeQwenImage21","inputs":{"clip":["2",0],"prompt":"A red ceramic mug on a light wooden table, soft daylight, plain neutral background, realistic product photograph.","negative_prompt":"","resolution":1024}},
+  "7": {"class_type":"VAEDecode","inputs":{"samples":["5",0],"vae":["3",0]}},
+  "8": {"class_type":"SaveImage","inputs":{"images":["7",0],"filename_prefix":"MORPH-UI/Qwen21"}}
+}

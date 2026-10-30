@@ -1,0 +1,6 @@
+{
+  "type": "plugin",
+  "runner": "node",
+  "owner": "morph",
+  "name": "bilder-und-videos"
+}
