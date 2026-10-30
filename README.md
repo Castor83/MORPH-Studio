@@ -1,11 +1,11 @@
 # MORPH Studio
 
-Pfadkorrektur-Hilfsskripte aus dem registrierten Projektordner. Der eigentliche MORPH-Anwendungsquellcode ist in diesem Ordner nicht enthalten.
+Dieses Repository dokumentiert einen bereinigten Export aus dem registrierten Chat-Projektordner. Der eigentliche MORPH-Anwendungsquellcode ist hier nicht enthalten.
 
-## Veroeffentlichter Umfang
+## Aktueller Umfang
 
-Bereinigter Dateistand vom 29.10.2026, ohne vorherige Git-Historie. Enthaltene Originaldateien: 2.
+Die beiden einmaligen Pfadkorrektur-Skripte `correct-active-data-paths.py` und `correct-pause-paths.py` wurden am 30.10.2026 entfernt. Sie werden nicht mehr benoetigt. Die Analyse hatte unvollstaendige Dateiupdates bei Fehlern und weitere Grenzen der Schutzpruefungen festgestellt.
 
-Persoenliche Notizen, Chats, Uebergaben, Zugangsdaten, lokale Laufzeitdaten, installierte Programme und Modelle werden nicht mitgeliefert. Lokale Benutzernamen wurden in den Releasekopien durch `USER` ersetzt. Die privaten Originalarbeitsbereiche werden separat weitergefuehrt.
+Der aktuelle Stand enthaelt keine ausfuehrbaren MORPH-Hilfsskripte. Der historische Export vom 29.10.2026 bleibt in der Git-Historie nachvollziehbar; seine Skripte sollen nicht erneut ausgefuehrt werden.
 
-Dies ist eine Quellstandsveroeffentlichung. Ein Build, Modelllauf oder allgemeiner Funktionstest dieses bereinigten Exports wurde nicht ausgefuehrt. Fehlende lokale Konfigurationen, externe Abhaengigkeiten und ausgeschlossene private Testdaten sind vor einem Einsatz selbst bereitzustellen.
+Persoenliche Notizen, Chats, Uebergaben, Zugangsdaten, lokale Laufzeitdaten, installierte Programme und Modelle werden nicht mitgeliefert. Private MORPH-Anwendungsdateien, Berichte und Sicherungskopien sind von dieser Bereinigung nicht betroffen.
