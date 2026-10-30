@@ -1,6 +1,6 @@
 # MORPH application source export — 2026-10-30
 
-This local preparation replaces the scope of the earlier two-helper-script export. It has not yet been published. The existing audit PR #1 reviews the earlier snapshot and does not establish coverage of this application export.
+This export replaces the scope of the earlier two-helper-script export. It is submitted through a separate application-source review PR; publication does not imply review completion or application acceptance. The existing audit PR #1 reviews the earlier snapshot and does not establish coverage of this application export.
 
 ## What is included
 
@@ -26,4 +26,4 @@ The obsolete `correct-active-data-paths.py` and `correct-pause-paths.py` migrati
 
 Source-to-export file coverage, SHA-256 comparisons, Python compilation without importing application modules, JSON parsing, JavaScript syntax checks and PowerShell parsing are used for this preparation. TypeScript execution/build, runtime integration, image quality and model operation are not claimed. No model, service, installer or download is started for this export. Historical test results in the included reports remain historical.
 
-The static credential-pattern scan found no matching live-token patterns in the selected text. This is not an exhaustive privacy or security guarantee. Publication remains a separate step after the concrete file scope has been reviewed.
+The static credential-pattern scan found no matching live-token patterns in the selected text. This is not an exhaustive privacy or security guarantee. The user authorized publishing the concrete prepared scope and submitting it to CodeRabbit on 2026-10-30. No automatic merge or repair is authorized.
